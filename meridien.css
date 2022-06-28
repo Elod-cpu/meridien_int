@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Les grands blocs */
+
+section{
+    width: 100%;
+    height: 140vh;
+    background-color: white;
+}
+
+.boxwhite{
+    background-color: white;
+}
+
+.boxblack{
+    background-color: black;
+}
+
+.cercle{
+    height: 80px;
+    width: 80px;
+    border: #e89431 solid 2px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carres{
+    height: 50px;
+    width: 150px;
+    border: grey solid 1.5px;
+}
+
+.rectangle{
+    height: 100px;
+    width: 200px;
+    border: grey 1px solid;
+}
+
+/* Header and elements */
+
+header{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover{
+    color: blue;
+}
+
+h1{
+    font-family: 'Abhaya Libre', serif;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.menuheader {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin-right: 80px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ 
+
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+li a:hover{
+    color: blue;
+}
+
+/* home and elements */
+
+.decouvrir{
+    width: 185px;
+    height: 48px;
+    transform: translate(220px, -613px);
+}
+
+.decouvrir button a:hover{
+    color: blue;
+}
+
+.reservation{
+    width:650px;
+    height:111px;
+    background-color:#FBF7F4 ;
+    transform: translate(405px, -535px);
+}
+
+.entree a{
+    text-decoration: none;
+    color: black;
+}
+
+.entree a:hover{
+    color: blue;
+}
+
+.sortie a{
+    text-decoration: none;
+    color: black;
+}
+
+.sortie a:hover{
+    color: blue;
+}
+
+.nombres a{
+    text-decoration: none;
+    color: black;
+}
+
+.nombres a:hover{
+    color: blue;
+}
+
+/* bedrooms and elements */
+
+.promo{
+    width: 17%;
+    height: 30vh;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.cercleschambres button a{
+    color: black;
+}
+
+.cercleschambres button a:hover{
+    color: blue;
+}
+
+
+
+/* services and elements */
+
+.resto{
+    background-color: black;
+}
+
+.first li{
+    list-style: none; 
+    margin: 20px;
+    transform: translate(-240px, 90px);
+    color: grey;
+}
+
+.second li{
+    list-style: none; 
+    margin: 20px;
+    transform: translate(-200px, 190px);
+    color: grey;
+}
+
+.first li::before {
+    content: "\2022";   
+    color: #e89431;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+    } 
+
+.second li::before {
+    content: "\2022";   
+    color: #e89431;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+    } 
+
+.reservez{
+    background-color: #FBF7F4;
+}
+
+.reservez a{
+    color: black;
+}
+
+/* galery end elements */
+
+.universel{
+    background-color:#323230;;
+}
+
+/* Clients and elements */
+
+/* Footer */
+
+input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border: grey 1px solid;
+    background-color: #FBF7F4;;
+}
